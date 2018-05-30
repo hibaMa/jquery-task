@@ -2,9 +2,11 @@
     box-sizing: border-box;
 }
 .container{
+    border: 1px solid black;
     width: 800px;
     background-color: aliceblue;
     padding: 20px;
+    border-radius: 5px;
 }
 .half{
     float: left;
