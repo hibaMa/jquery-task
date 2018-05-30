@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+.half{
+    float: left;
+    width: 50%;
+}
+div.button{
+    text-align: center;
+    padding: 10px;
+}
+.clearFix{
+    clear: both;
+}
+
+.chosenDiv{
+    margin: 3px 3px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 9px;
+    float: left;
+    width: 48%;
+    word-wrap: break-word;
+}
+button{
+    width: 100px;
+    background-color: #20c3d7;
+    border: 5px solid #f1e5e5;
+    height: 47px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #41cdde;
+    cursor: pointer;
+}
+input[type="text"]{
+    padding: 5px;
+    border-radius: 5px;
+}
+select{
+    margin: 30px 0;
+    display: block;
+    border-radius: 5px;
+    padding: 5px;
+    width: 177px;
+}
+
+
+/*.chosenDiv{*/
+    /*margin: 1px;*/
+    /*border: 1px solid black;*/
+    /*border-radius: 3px;*/
+    /*padding: 9px;*/
+/*}*/
