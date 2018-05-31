@@ -5,7 +5,6 @@ $(document).ready(function(){
     $("#add").on("click",function(){
         for(var i=0;i<5 ; i++){
             var random =Math.random()*10;
-            alert("<option id='id"+random+"'>op"+random+"</option>");
             $("#options").append("<option id='id"+random+"'>op"+random+"</option>");
         }
     });
